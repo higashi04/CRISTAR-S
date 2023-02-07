@@ -1,0 +1,10 @@
+#footer{
+    background-color: #7C91A2;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#footer-text{
+    font-weight: bold;
+    letter-spacing: 1px;
+}

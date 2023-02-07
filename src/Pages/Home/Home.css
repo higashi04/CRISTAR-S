@@ -1,0 +1,14 @@
+.Home-main{
+    height: 45vh;
+    width: 100vw;
+    background-image:url("../../utilities/james-harrison-vpOeXr5wmR4-unsplash.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.homeText {
+    font-weight: bold;
+    color: white;
+    font-size: 1.25rem;
+}

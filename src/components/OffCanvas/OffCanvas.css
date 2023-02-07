@@ -1,0 +1,17 @@
+#logoBtn {
+    width: 15%;
+    height: auto;
+    position: relative;
+    top: 0;
+    transition: top 0 ease 0.5s;
+}
+#logoBtn:hover {
+    cursor: pointer;
+    box-shadow: 10px 15px 15px #7C91A2;
+    top: -10px;
+}
+#canvasLogo {
+    width: 95%;
+    height: auto;
+}
+
