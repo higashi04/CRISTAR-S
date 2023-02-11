@@ -1,0 +1,24 @@
+.projectDescription {
+    background-color: #7c91a2;
+    border-radius: 15px;
+}
+
+.projectTitle{
+   text-align: center;
+}
+
+.projectDescription {
+    font-weight: bold;
+    font-size: 1.15rem;
+}
+
+.projectImg{
+    width: 50vw;
+    height: auto;
+}
+@media (max-width: 375px) {
+    .projectImg{
+        width: 90vw;
+        height: auto;
+    }
+}

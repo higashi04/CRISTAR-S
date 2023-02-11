@@ -1,0 +1,21 @@
+#serviciosCodeWall{
+    border-radius: 15px;
+    height: 30vh;
+    width: 40vw;
+}
+.serviciosTextHolder{
+    background-color: #7c91a2;
+    border-radius: 15px;
+    height: 30vh;
+}
+.serviciosText{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+@media (max-width: 375px) {
+    .serviciosText{
+        font-weight: bold;
+        font-size: 0.8rem;
+    }
+}
