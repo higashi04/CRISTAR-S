@@ -4,8 +4,8 @@ import { Offcanvas } from "react-bootstrap";
 import {BsCodeSlash} from "react-icons/bs";
 
 import './OffCanvas.css';
-import logo from '../../utilities/CRISTARS_banner.jpg';
-import logoWhite from '../../utilities/CRISTARS_banner_white.jpg';
+import logo from '../../utilities/CRISTARS_banner2.jpg';
+import logoWhite from '../../utilities/CRISTARS_banner_white2.jpg';
 import star from '../../utilities/star-removebg.png';
 
 
@@ -16,7 +16,9 @@ const OffCanvas = () => {
     
     return (
         <>
-            <img id="logoBtn" src={logo} alt="menu btn" onClick={handleOpen} />
+            <div className="logoDiv">
+                <img id="logoBtn" src={logo} alt="menu btn" onClick={handleOpen} />
+            </div>
             <Offcanvas show={show} onHide={handleClose}>
                 <Offcanvas.Header closeButton>
                     <Offcanvas.Title>
