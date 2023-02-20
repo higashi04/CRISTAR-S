@@ -1,5 +1,5 @@
 :root {
-  --mainColor: #13638B;
+  --mainColor: #fff;
 }
 body {
   background-color: var(--mainColor);

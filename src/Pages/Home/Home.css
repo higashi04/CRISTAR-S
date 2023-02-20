@@ -1,19 +1,62 @@
+:root {
+    --divColor: #292B64;
+    --vhMain: 45vh;
+    --vhMain375pix: 35vh
+}
+
 .Home-main{
-    height: 45vh;
+    background-color: var(--divColor);
+    height: var(--vhMain);
     width: 100vw;
-    background-image:url("../../utilities/james-harrison-vpOeXr5wmR4-unsplash.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column-reverse;
+}
+.Home-main:nth-of-type(even){
+    background-color: #fff;
+}
+.arrow{
+    width: 0;
+    height: 0;
+    border-top: 22.5vh solid transparent;
+    border-bottom: 22.5vh solid transparent;
+    border-left: 22.5vh solid var(--divColor);
+    background: linear-gradient(to right, var(--divColor), var(--divColor) 50%, transparent 50%);
 }
 .homeText {
     font-weight: bold;
-    color: white;
+    color: #fff;
     font-size: 1.25rem;
+}
+.homeTextRight {
+    color: #000 !important;
+    font-size: 1.1rem;
 }
 #homeContainer {
     display: flex;
     justify-content: center;
     align-content: center
+}
+@media (max-width: 375px) {
+    .Home-main{
+        background-color: var(--divColor);
+        height: var(--vhMain375pix);
+        width: 100vw;
+    }
+    .arrow{
+        width: 0;
+        height: 0;
+        border-top: 17.5vh solid transparent;
+        border-bottom: 17.5vh solid transparent;
+        border-left: 5.5vh solid var(--divColor);
+        background: linear-gradient(to right, var(--divColor), var(--divColor) 50%, transparent 50%);
+    }
+    .homeText{
+        font-size: .95rem;
+    }
+    .homeTextRight {
+        color: #000 !important;
+        font-size: .75rem;
+    }
+    .Home-img-logo{
+        width: 100%;
+        height: auto;
+    }
 }
