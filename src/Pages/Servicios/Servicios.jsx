@@ -17,6 +17,21 @@ const projects = [
         "https://res.cloudinary.com/dngbwenom/image/upload/v1655672640/portfolio/googleMaps/Screenshot_2022-06-19_160315_mltmgm.png",
         "https://res.cloudinary.com/dngbwenom/image/upload/v1655672745/portfolio/googleMaps/Screenshot_2022-06-19_160524_fz9efn.png",
       ],
+      isOnline: false,
+      url: undefined
+    },
+    {
+      id: 2,
+      title: "Restaurants Demo",
+      description:
+        "Sitio web realizado como demo sobre un menú para solo personalizarlo para los clientes.",
+      screenshots: [
+        "https://res.cloudinary.com/dngbwenom/image/upload/v1677449894/portfolio/restaurant_demo/unnamed_jz4k8f.jpg",
+        "https://res.cloudinary.com/dngbwenom/image/upload/v1677449894/portfolio/restaurant_demo/unnamed_1_h8hbgs.jpg",
+        "https://res.cloudinary.com/dngbwenom/image/upload/v1677449894/portfolio/restaurant_demo/unnamed_2_aoqmyo.jpg",
+      ],
+      isOnline: true,
+      url: "https://elaborate-torrone-61bd62.netlify.app/"
     },
 ]
 

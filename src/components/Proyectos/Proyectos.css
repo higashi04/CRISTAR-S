@@ -13,7 +13,7 @@
 }
 
 .projectImg{
-    width: 50vw;
+    width: 75%;
     height: auto;
 }
 @media (max-width: 375px) {
