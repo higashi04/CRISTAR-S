@@ -1,10 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 import './Proyectos.css'
 
 const Proyectos = ({data}) => {
   return (
-    <>
+    <div className='mb-5'>
         <div className='row projectTitle'>
             <h3>{data.title}</h3>
         </div>
@@ -15,7 +16,7 @@ const Proyectos = ({data}) => {
         </div>
         <div className="row mb-5">
             {data.screenshots.map((item) => (
-                <div className="col mb-3">
+                <div className="col-4">
                     <img
                     className="projectImg"
                     src={item}
@@ -23,8 +24,12 @@ const Proyectos = ({data}) => {
                     />
                 </div>
             ))}
+           <div className="col my-3">
+           {data.isOnline && <Link className='btn btn-outline-primary' to={data.url} >Demo</Link>}
+           </div>
         </div>
-    </>
+        
+    </div>
   )
 }
 
